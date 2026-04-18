@@ -8,11 +8,8 @@ import openai
 import ast
 from enum import Enum
 
-# API_KEY = "sk-cNED81BWbouS1zxr2p4eU1uJUUkDDmFJ8g0Uv1atFr6zHFqS"
-# HOST_URL = "https://api.bltcy.ai"
-
-API_KEY = "sk-poe-ui0eTZQyCfjYVa2pDmSNgY8xKqNcJ5BU_gHhpdEEwlg"
-HOST_URL = "https://api.poe.com"
+API_KEY = "sk-cNED81BWbouS1zxr2p4eU1uJUUkDDmFJ8g0Uv1atFr6zHFqS"
+HOST_URL = "https://api.bltcy.ai"
 
 # OpenAI SDK with custom base_url — must expose `/v1` routes (e.g. `/v1/responses`).
 client = openai.OpenAI(
